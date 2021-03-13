@@ -1,0 +1,23 @@
+node {
+    def mvnHome
+    
+    stage('Build') {
+       
+       echo "build building project"
+    }
+
+     stage('Test') {
+       
+       echo "Test building project"
+    }
+    
+     stage('Deploy') {
+       
+       echo "Deploy building project"
+    }
+    
+     stage('Release') {
+       
+       echo "Release project test...."
+    }
+}
